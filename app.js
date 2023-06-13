@@ -52,13 +52,16 @@ if (window.location.href.indexOf("covid-19-faq") > -1) {
 		`Covid 19 Safety Protocols at Cristophe Salon in Beverly Hills video`
 	)
 }
-
+// js url:
+// https://cdn.jsdelivr.net/gh/luukee/cristophe-salon@master/app.min.js
 let modalBtn = document.getElementById("modal_btn")
 let modal = document.getElementsByClassName(
 	"fe-block-yui_3_17_2_1_1671584836922_10372 fe-block-5210e7dc8fb2605b2f91"
 )
-modalBtn.onclick = function () {
-	modal.style.display = "grid"
+for (let i = 0; i < modal.length; i++) {
+	modalBtn.onclick = function () {
+		modal.style.display = "grid"
+	}
 }
 window.onclick = function (event) {
 	if (event.target == modal) {
