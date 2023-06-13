@@ -57,7 +57,7 @@ if (window.location.href.indexOf("covid-19-faq") > -1) {
 let modalBtn = document.getElementById("modal_btn")
 let modal = document.getElementsByClassName(
 	"fe-block-yui_3_17_2_1_1671584836922_10372"
-)
+)[0]
 modalBtn.onclick = function () {
 	modal.style.display = "grid"
 }
