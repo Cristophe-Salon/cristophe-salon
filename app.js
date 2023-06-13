@@ -56,12 +56,10 @@ if (window.location.href.indexOf("covid-19-faq") > -1) {
 // https://cdn.jsdelivr.net/gh/luukee/cristophe-salon@master/app.min.js
 let modalBtn = document.getElementById("modal_btn")
 let modal = document.getElementsByClassName(
-	"fe-block-yui_3_17_2_1_1671584836922_10372 fe-block-5210e7dc8fb2605b2f91"
+	"fe-block-yui_3_17_2_1_1671584836922_10372"
 )
-for (let i = 0; i < modal.length; i++) {
-	modalBtn.onclick = function () {
-		modal.style.display = "grid"
-	}
+modalBtn.onclick = function () {
+	modal.style.display = "grid"
 }
 window.onclick = function (event) {
 	if (event.target == modal) {
