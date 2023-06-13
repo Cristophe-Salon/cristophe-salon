@@ -220,7 +220,8 @@ body:not(.header--menu-open) .header-nav-folder-content {
 	left: -100vw;
 	top: 0;
 }
-.fe-block.fe-block-yui_3_17_2_1_1671584836922_10372 {
+.fe-block.fe-block-yui_3_17_2_1_1671584836922_10372,
+.fe-block.fe-block-5210e7dc8fb2605b2f91 {
 	display: none;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
