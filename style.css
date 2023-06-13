@@ -1,6 +1,9 @@
 /* Cristophe.com custom CSS */
 /* code hosted from GitHub(https://github.com/luukee/cristophe-salon) with https://www.jsdelivr.com/ */
 /* FLEX CLASSES */
+html {
+  scroll-behavior: smooth;
+}
 .flex-column {
 	display: flex;
 	flex-direction: column;
