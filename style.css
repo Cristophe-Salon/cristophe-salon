@@ -214,7 +214,8 @@ body:not(.header--menu-open) .header-nav-folder-content {
 .header-menu-nav .header-menu-actions:after {
 	transform: translate(5%, 225%);
 }
-.hidden {
+.hidden,
+.hidden.preFade.fadeIn {
 	opacity: 0 !important;
 	position: absolute;
 	left: -100vw;
