@@ -110,7 +110,11 @@ body:not(.header--menu-open) .header-nav-folder-content {
 		font-size: calc((1.2 - 1) * 1.2vw + 1rem);
 	}
 }
-
+@supports (text-decoration-thickness: 1px) and (text-underline-offset: 0.2em) {
+    .sqs-block-html a,.image-title-wrapper a,.image-subtitle-wrapper a,.sqs-image-caption a,.image-caption a,.sqs-block-newsletter a,.list-item-content__description a,.list-section-title a {
+        text-decoration-line: none;
+    }
+}
 /* START team navigation */
 
 @media screen and (min-width: 0) and (max-width: calc(2800px - 1px)) and (orientation: landscape) {
