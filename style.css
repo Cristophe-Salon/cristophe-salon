@@ -112,17 +112,6 @@ body:not(.header--menu-open) .header-nav-folder-content {
 }
 
 /* START team navigation */
-.primary-button-style-outline .sqs-block-button-element--xsmall {
-	background: transparent;
-	color: #f7f7f7;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.primary-button-style-outline .sqs-block-button-element--xsmall:hover {
-	background: #f7f7f7;
-	color: #000;
-}
 
 @media screen and (min-width: 0) and (max-width: calc(2800px - 1px)) and (orientation: landscape) {
 	.flex-wrapper {
