@@ -120,6 +120,7 @@ body:not(.header--menu-open) .header-nav-folder-content {
 .list-item-content__description a,
 .list-section-title a {
 	text-decoration-line: none;
+	text-decoration: none;
 }
 
 /* START team navigation */
