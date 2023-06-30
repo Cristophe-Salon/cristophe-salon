@@ -1,5 +1,7 @@
 # cristophe-salon
 
+## [Cristophe Salon Beverly Hills](https://github.com/luukee/cristophe-salon/edit/master/README.md) | [Cristophe Salon Newport Beach](https://github.com/luukee/cristophe-salon/edit/master/README.md) | 
+
 Custom styles and scripts for [Cristophe Salon](https://www.cristophe.com/).
 
 Hosted from this GitHub repo with [jsDelivr](https://www.jsdelivr.com/github).
