@@ -1,6 +1,6 @@
 # cristophe-salon
 
-## [Cristophe Salon Beverly Hills](https://github.com/luukee/cristophe-salon/edit/master/README.md) | [Cristophe Salon Newport Beach](https://github.com/luukee/cristophe-salon/edit/master/README.md) | 
+## [Beverly Hills Docs](https://github.com/luukee/cristophe-salon/wiki) | [Newport Beach Docs](https://github.com/luukee/cristophe-salon/wiki/Cristophe-Newport-Beach)
 
 Custom styles and scripts for [Cristophe Salon](https://www.cristophe.com/).
 
