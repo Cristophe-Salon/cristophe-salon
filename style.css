@@ -123,6 +123,14 @@ body:not(.header--menu-open) .header-nav-folder-content {
 	text-decoration: none;
 }
 
+.portfolio-grid-overlay .grid-item .portfolio-text {
+	top: unset;
+}
+.portfolio-grid-overlay .grid-item .portfolio-text .portfolio-title {
+	text-align: left;
+	font-size: 18px;
+}
+
 /* START team navigation */
 
 @media screen and (min-width: 0) and (max-width: calc(2800px - 1px)) and (orientation: landscape) {
