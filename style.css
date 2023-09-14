@@ -228,7 +228,7 @@ body:not(.header--menu-open) .header-nav-folder-content {
 }
 
 .header-display-desktop .header-actions--left:after {
-	transform: translate(25%, 225%);
+	transform: translate(10%,175%);
 }
 
 .header-menu-nav .header-menu-actions:after {
