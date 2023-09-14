@@ -37,11 +37,13 @@ html {
 }
 
 /* desktop nav */
+/*
 .header-layout-branding-center-nav-center
 	.header-actions--right
 	.header-actions-action {
 	display: none;
 }
+*/
 
 /* mobile nav */
 .header-display-mobile {
