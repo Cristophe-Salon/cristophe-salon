@@ -134,7 +134,10 @@ body:not(.header--menu-open) .header-nav-folder-content {
 }
 
 /* START team navigation */
-
+.primary-button-style-solid .site-wrapper .sqs-button-element--primary[data-active] {
+		color: #38383b;
+		background-color: #f7f7f7 !important;
+}
 @media screen and (min-width: 0) and (max-width: calc(2800px - 1px)) and (orientation: landscape) {
 	.flex-wrapper {
 		display: flex;
@@ -144,12 +147,6 @@ body:not(.header--menu-open) .header-nav-folder-content {
 	.sqs-block-button-element--xsmall {
 		font-size: calc((0.9 - 1) * 1.2vw + 1rem);
 		padding: 1rem;
-	}
-
-	/* active buttons */
-	.sqs-block-button-element--xsmall[data-active] {
-		background-color: #f7f7f7 !important;
-		color: #38383b;
 	}
 }
 
