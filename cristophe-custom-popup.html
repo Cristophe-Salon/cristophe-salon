@@ -1,0 +1,122 @@
+<!-- Popup trigger -->
+<a
+	class="sqs-block-button-element--large sqs-button-element--secondary sqs-block-button-element"
+	href="#"
+	data-featherlight="#referral_popup"
+	style="width: 100%; text-align: center; text-wrap: nowrap"
+	>Referral Program</a
+>
+
+<!--  Popup modal -->
+<div style="display: none">
+	<div id="referral_popup" class="referral-popup site-wrapper">
+		<div class="referral-popup__intro">
+			<h2>Refer Friends + Get Rewarded</h2>
+			<p>
+				Refer your friend and BOTH of you will receive 15% off your next service
+			</p>
+		</div>
+		<h3>How It Works</h3>
+		<ol>
+			<li>
+				<h4>Sign Up or Login to Cristophe Booking</h4>
+				<p>Download Cristophe App for Faster Booking</p>
+				<!-- app images -->
+				<div class="flex-row flex-row__img-wrap">
+					<a href="https://apps.apple.com/us/app/cristophe/id6450590617">
+						<img
+							class="flex-row__btn-img"
+							src="https://images.squarespace-cdn.com/content/5e4f0dc47431d02202bada00/8f318a19-26e5-48f8-b86b-f28876e22951/apple-app-store.png?content-type=image%2Fpng"
+					/></a>
+					<a
+						href="https://play.google.com/store/apps/details?id=com.zenoti.cristophe&amp;pcampaignid=web_share">
+						<img
+							class="flex-row__btn-img"
+							src="https://images.squarespace-cdn.com/content/5e4f0dc47431d02202bada00/c48d4499-c968-45c0-be1e-3d7271aea587/google-app-store.png?content-type=image%2Fpng" />
+					</a>
+				</div>
+				<p><strong>or</strong></p>
+				<p style="margin-bottom: 0">Sign up/Login to our Booking Portal</p>
+				<!-- continue button -->
+				<div class="sqs-block button-block sqs-block-button">
+					<div class="sqs-block-content">
+						<div
+							class="sqs-block-button-container preFade fadeIn"
+							data-animation-role="button"
+							data-button-size="small"
+							data-button-type="tertiary">
+							<a
+								href="https://cristophe.zenoti.com/webstoreNew/services?_gl=1*13evp9n*_ga*ODQyMDkzMTAuMTcwMDI2NTE5Mg..*_ga_79W101XMM6*MTcwMDI2NTE5MS4xLjEuMTcwMDI2NzczMS41OS4wLjA."
+								class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+								data-initialized="true">
+								Continue to Booking Portal</a
+							>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<h4>Share</h4>
+				<p>Share your unique code with your friends</p>
+			</li>
+			<li>
+				<h4>Your friend gets 15% off their first visit</h4>
+				<p>
+					By using your referral code when booking an appointment, your friend
+					enjoys a discount
+				</p>
+			</li>
+			<li>
+				<h4>You receive the discount too!</h4>
+				<p>
+					A discount will be automatically added to your account after your
+					friend's visit
+				</p>
+			</li>
+		</ol>
+	</div>
+</div>
+
+<style>
+	.code-block > .sqs-block-content,
+	.referral-popup__custom-btn > .sqs-block-content {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.featherlight-content {
+		max-width: 80vw;
+	}
+	.referral-popup {
+		padding: 0 2rem;
+	}
+	.referral-popup * {
+		color: #000;
+	}
+	.referral-popup .preFade {
+		opacity: 1;
+	}
+	.referral-popup__intro {
+		text-align: center;
+	}
+	.flex-row {
+		display: flex;
+		gap: 3em;
+	}
+	.flex-row__img-wrap {
+		gap: 1em;
+	}
+	.flex-row__btn-img {
+		height: 40px;
+	}
+	.referral-popup .sqs-block-button-element {
+		height: 100%;
+		padding: 16px 26px;
+		outline: 3px solid black;
+	}
+	.referral-popup h4 {
+		margin-bottom: 0;
+	}
+</style>
