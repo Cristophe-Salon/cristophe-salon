@@ -1,4 +1,4 @@
-# cristophe-salon
+# Cristophe Salon - Beverly Hills
 
 ## [Beverly Hills Docs](https://github.com/Cristophe-Salon/cristophe-salon/wiki) | [Newport Beach Docs](https://github.com/Cristophe-Salon/cristophe-salon/wiki/Cristophe-Newport-Beach)
 
