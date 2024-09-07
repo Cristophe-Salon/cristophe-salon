@@ -141,7 +141,8 @@ body:not(.header--menu-open) .header-nav-folder-content {
 @media screen and (min-width: 0) and (max-width: calc(2800px - 1px)) and (orientation: landscape) {
 	.flex-wrapper {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
+		gap: 1em;
 	}
 
 	.sqs-block-button-element--xsmall {
