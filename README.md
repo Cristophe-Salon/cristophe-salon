@@ -1,7 +1,5 @@
 # Cristophe Salon - Beverly Hills
 
-## [Beverly Hills Docs](https://github.com/Cristophe-Salon/cristophe-salon/wiki) | [Newport Beach Docs](https://github.com/Cristophe-Salon/cristophe-salon/wiki/Cristophe-Newport-Beach)
-
 ## [Zenoti Admin Login](https://cristophe.zenoti.com/Admin/Admin.aspx?fromlogin=1)
 
 Custom styles and scripts for [Cristophe Salon](https://www.cristophe.com/).
