@@ -95,6 +95,16 @@ body:not(.header--menu-open) .header-nav-folder-content {
 	background-color: #545454;
 }
 
+/* IG slider img fit */
+.sqs-gallery-design-strip-slide img,
+.sqs-gallery-design-strip-slide .sqs-video-wrapper {
+	height: 100% !important;
+	top: 0 !important;
+	display: flex !important;
+	object-fit: cover !important;
+	align-items: start !important;
+}
+
 .underline {
 	text-decoration-line: underline;
 	text-decoration-style: solid;
