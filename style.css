@@ -92,7 +92,7 @@ body:not(.header--menu-open) .header-nav-folder-content {
 	.header-nav-item--folder
 	.header-nav-folder-content
 	.header-nav-folder-item:hover {
-	background-color: #38383b;
+	background-color: #545454;
 }
 
 .underline {
