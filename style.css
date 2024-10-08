@@ -34,6 +34,9 @@ html {
 	.instagram-block {
 		padding-right: 0 !important;
 	}
+	.instagram-block.sqs-block-instagram {
+		padding-left: 0;
+	}
 }
 
 /* desktop nav */
