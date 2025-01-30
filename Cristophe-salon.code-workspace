@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"minify.minifyExistingOnSave": true,
+		"editor.formatOnSave": true
+	}
+}
